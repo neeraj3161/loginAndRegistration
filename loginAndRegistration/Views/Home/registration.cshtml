@@ -1,0 +1,41 @@
+﻿@model RegistrationClass
+
+@{
+
+    ViewData["Title"] = "Registration form";
+}
+
+<!DOCTYPE html/>
+
+<html>
+    <head>
+        <meta name="view-port" content="width=device-width"/>
+        <title>Registration page</title>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+    <body>
+        <div>
+            <center>
+                <h1 class="head1">Welcome to the registration page</h1><br /><hr />
+                <form action="" method="post">
+                    <input name="name" placeholder="Enter name" required/>
+                    
+                    <input name="surname" placeholder="Enter surname" required/>
+                    <br />
+                    <br />
+                    <input name="email" placeholder="Enter email" required/>
+                    
+                    <input name="phone" type="number" placeholder="Enter phone number" required/>
+                    <br />
+                    <br />
+                    <input name="username" placeholder="Enter username" required/>
+                    
+                     <input name="password" placeholder="Enter password" required/>
+                    <br />
+                    <br />
+                    <button class="btn" type="submit">Submit </button>
+                </form>
+            </center>
+        </div>
+    </body>
+</html>
